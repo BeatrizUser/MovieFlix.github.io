@@ -57,6 +57,12 @@ const moviesdb = [
         title: "Velozes & Furiosos – Espiões do Asfalto",
         url:"https://embed.warezcdn.net/serie/tt8322592"
     },
+    { 
+        id:"movie/114150",
+        tipo: "Movies",
+        title: "A Escolha Perfeita",
+        url:"https://embed.warezcdn.net/filme/tt1981677"
+    },
 ]
 async function Home(){
     for(let movie of moviesdb){
@@ -89,14 +95,16 @@ async function getMovie(movie){
     const rating = movie_data.vote_average
     const rating_round = Number(rating).toFixed(1)
     return (`
-    <div class="card">
-       <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${movieimg}">
-       <div class="info">
-        <h4>${movie.title}</h4>
-        <p class="description_movie">${moviedescription}</p>
-        <h2><i class="fa fa-star" aria-hidden="true"></i>${rating_round}</h2>
-        <a href=${movie.url}><button>Watch Movie</button><a/>
-       </div>
+    <div class="moviecard">
+        <div class="card">
+        <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${movieimg}">
+        <div class="info">
+            <h4>${movie.title}</h4>
+            <p class="description_movie">${moviedescription}</p>
+            <h2><i class="fa fa-star" aria-hidden="true"></i>${rating_round}</h2>
+            <a href=${movie.url}><button>Assistir</button><a/>
+        </div>
+        </div>
      </div>
     `)
 
