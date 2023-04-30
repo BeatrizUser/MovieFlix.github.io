@@ -67,7 +67,7 @@ const moviesdb = [
         id:"movie/82695",
         tipo: "Movies",
         title: "Os Miseráveis",
-        url:"https://embed.warezcdn.net/filme/tt17073867"
+        url:"https://embed.warezcdn.net/filme/tt1707386"
     },
 ]
 async function Home(){
