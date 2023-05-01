@@ -1,130 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
 body{
     background-image: url("../assets/NETFLIX_FORM_03_wes.jpg");
     background-color: rgb(20, 20, 20);
-}
-.wrapper {
-    margin: 10px;
-    width: 100rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-.tipos{
-    font-size: 20px;
-    color: white;
-    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    align-items: center;
 }
 .title{
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #00000094;
+}
+@media screen and (max-width: 600px){
+  .wrapper {
     justify-content: center;
-    margin: 20px;
+  }
+  .card{
+    max-width:90vw;
+  }
 }
-.description_movie{
+.tipos{
+  background-color: #00000047;
+  font-weight: 700;
+  padding: 10px;
+}
+.movies{
+  display: flex;
+  flex-direction: column;
+}
+.wrapper{
+  min-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.493);
+    margin: 5px;
+    color: white;
+}
+.card-text{
     overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical; 
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
-.card {
-width: 250px;
-height: 400px;
-border-radius: 15px;
-padding: 1.5rem;
-margin: 0.5rem;
-background: rgba(0, 0, 0, 0);
-position: relative;
-display: -webkit-box;
-display: flex;
--webkit-box-align: end;
-        align-items: flex-end;
--webkit-transition: 0.4s ease-out;
-transition: 0.4s ease-out;
-box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.5);
+.star{
+    font-size: 40px;
 }
-.card:hover {
--webkit-transform: translateY(20px);
-        transform: translateY(20px);
+.rating{
+    font-weight: 700;
+    font-size: 1.3rem;
 }
-.card:hover:before {
-opacity: 1;
+.card-title{
+    font-weight: 700;
 }
-.card:hover .info {
-opacity: 1;
--webkit-transform: translateY(0px);
-        transform: translateY(0px);
-}
-.card:before {
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-display: block;
-width: 100%;
-height: 100%;
-border-radius: 15px;
-background: rgba(0, 0, 0, 0.709);
-z-index: 2;
--webkit-transition: 0.5s;
-transition: 0.5s;
-opacity: 0;
-}
-.card img {
-width: 100%;
-height: 100%;
--o-object-fit: cover;
-    object-fit: cover;
-position: absolute;
-top: 0;
-left: 0;
-border-radius: 15px;
-}
-.card .info {
-position: relative;
-z-index: 3;
-color: white;
-opacity: 0;
--webkit-transform: translateY(30px);
-        transform: translateY(30px);
--webkit-transition: 0.5s;
-transition: 0.5s;
-}
-.card .info h1 {
-margin: 0px;
-}
-.card .info p {
-letter-spacing: 1px;
-font-size: 10px;
-margin-top: 8px;
-}
-.card .info button {
-padding: 0.6rem;
-outline: none;
-border: none;
-border-radius: 3px;
-background: white;
-color: black;
-font-weight: bold;
-cursor: pointer;
--webkit-transition: 0.4s ease;
-transition: 0.4s ease;
-}
-.card .info button:hover {
-background: rgb(107, 0, 201);
-color: white;
-}
-.card .info button.idea {
-padding: 0.6rem;
-outline: none;
-border: none;
-border-radius: 3px;
-background: white;
-color: black;
-font-weight: bold;
-cursor: pointer;
--webkit-transition: 0.4s ease;
-transition: 0.4s ease;
-}
-.card .info button.idea:hover {
-background: red;
-color: white;
-}
+.trailer-preview {
+    background-color: #3a3a3a;
+    position: absolute;
+    top: 395px;
+    right: 18px;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    color: rgba(255, 255, 255, 0.505);
+    font-size: 34px;
+    text-align: center;
+    padding: 2px;
+    transition: 0.5s ease;
+  }
+  .trailer-preview:hover, .trailer-preview:disabled, .trailer-preview:active, .trailer-preview:focus {
+    opacity: 80%;
+    color: #ff0000;
+    text-decoration: none;
+    transition: 0.5ms ease-in;
+  }
+  .trailer-preview i {
+    margin-left: 5px;
+  }
+  
+  .metadata {
+    background: none;
+    padding: 0;
+    position: relative;
+    border-style: none;
+  }
+  
+  .metadata {
+    font-size: 16px;
+  }
+  .metadata i, .metadata p {
+    float: left;
+  }
+  .metadata p {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+  .metadata i {
+    color: #ff9d00;
+    margin-top: 5px;
+    margin-left: 1px;
+  }

@@ -92,20 +92,27 @@ async function getMovie(movie){
 
     const movieimg = movie_data.poster_path
     const moviedescription = movie_data.overview
+    const movie_type = movie_data.genres[0].name
     const rating = movie_data.vote_average
     const rating_round = Number(rating).toFixed(1)
+    console.log(movie_data)
     return (`
-    <div class="moviecard">
-        <div class="card">
-        <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${movieimg}">
-        <div class="info">
-            <h4>${movie.title}</h4>
-            <p class="description_movie">${moviedescription}</p>
-            <h2><i class="fa fa-star" aria-hidden="true"></i>${rating_round}</h2>
-            <a href=${movie.url}><button>Assistir</button><a/>
+    <div class="card" style="width:18rem;">
+        <img class="card-img-top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${movieimg}" alt="${movie.title}">
+    <div class="card-body">
+        <h4 class="card-title">${movie.title}</h4>
+    <div class="container">
+                <div class="row">
+                <div class="col-sm-6 metadata">
+                    <p class="rating">${rating_round}</p>
+                </div>
+                <div class="col-sm-6 metadata">${movie_type}</div>
+                </div>
+            </div>
+        <p class="card-text">${moviedescription}</p>
+        <a class="trailer-preview" href=${movie.url} target="new">&#9656</a>
         </div>
-        </div>
-     </div>
+    </div>
     `)
 
 }
