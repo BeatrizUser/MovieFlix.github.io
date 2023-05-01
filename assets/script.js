@@ -63,6 +63,12 @@ const moviesdb = [
         title: "A Escolha Perfeita",
         url:"https://embed.warezcdn.net/filme/tt1981677"
     },
+    { 
+        id:"movie/82695",
+        tipo: "Movies",
+        title: "Os Miseráveis",
+        url:"https://embed.warezcdn.net/filme/tt1707386"
+    },
 ]
 async function Home(){
     for(let movie of moviesdb){
