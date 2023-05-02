@@ -177,6 +177,12 @@ const moviesdb = [
         title: "Jovem Sheldon",
         url:"https://embed.warezcdn.net/serie/tt6226232"
     },
+    { 
+        id:"movie/487491",
+        tipo: "Movies",
+        title: "Fala Sério, Mãe!",
+        url:"https://embed.warezcdn.net/filme/tt7744802"
+    },
 ]
 async function Home(){
     for(let movie of moviesdb){
@@ -211,7 +217,7 @@ async function getMovie(movie){
     const rating_round = Number(rating).toFixed(1)
     console.log(movie_data)
     return (`
-    <div class="card" style="width:18rem;">
+    <div class="card" style="width:14rem;">
         <img class="card-img-top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${movieimg}" alt="${movie.title}">
     <div class="card-body">
         <h4 class="card-title">${movie.title}</h4>
