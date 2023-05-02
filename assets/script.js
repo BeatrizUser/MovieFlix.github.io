@@ -40,6 +40,54 @@ const moviesdb = [
         url:"https://embed.warezcdn.net/serie/tt12343534"
     },
     { 
+        id:"tv/85937",
+        tipo: "Animes",
+        title: "Demon Slayer (Kimetsu no Yaiba)",
+        url:"https://embed.warezcdn.net/serie/tt9335498"
+    },
+    { 
+        id:"tv/1429",
+        tipo: "Animes",
+        title: "Attack on Titan",
+        url:"https://embed.warezcdn.net/serie/tt2560140"
+    },
+    { 
+        id:"tv/30984",
+        tipo: "Animes",
+        title: "Bleach",
+        url:"https://embed.warezcdn.net/serie/tt0434665"
+    },
+    { 
+        id:"tv/63926",
+        tipo: "Animes",
+        title: "One-Punch Man",
+        url:"https://embed.warezcdn.net/serie/tt4508902"
+    },
+    { 
+        id:"tv/13916",
+        tipo: "Animes",
+        title: "Death Note",
+        url:"https://embed.warezcdn.net/serie/tt0877057"
+    },
+    { 
+        id:"tv/36250",
+        tipo: "Animes",
+        title: "xxxHolic",
+        url:"https://embed.warezcdn.net/serie/tt0488477"
+    },
+    { 
+        id:"tv/30981",
+        tipo: "Animes",
+        title: "Monster",
+        url:"https://embed.warezcdn.net/serie/tt0434706"
+    },
+    { 
+        id:"tv/65249",
+        tipo: "Animes",
+        title: "Boku Dake Ga Inai Machi (Erased)",
+        url:"https://embed.warezcdn.net/serie/tt5249462"
+    },
+    { 
         id:"tv/1418",
         tipo: "Series",
         title: "Big Bang: A Teoria",
@@ -68,6 +116,66 @@ const moviesdb = [
         tipo: "Movies",
         title: "Os Miseráveis",
         url:"https://embed.warezcdn.net/filme/tt1707386"
+    },
+    { 
+        id:"movie/131631",
+        tipo: "Movies",
+        title: "Jogos Vorazes: Esperança Parte 1",
+        url:"https://embed.warezcdn.net/filme/tt1951265"
+    },
+    { 
+        id:"movie/131634",
+        tipo: "Movies",
+        title: "Jogos Vorazes: Esperança - O Final",
+        url:"https://embed.warezcdn.net/filme/tt1951266"
+    },
+    { 
+        id:"tv/69478",
+        tipo: "Series",
+        title: "O conto da Aia",
+        url:"https://embed.warezcdn.net/serie/tt5834204"
+    },
+    { 
+        id:"tv/39272",
+        tipo: "Series",
+        title: "Era uma Vez",
+        url:"https://embed.warezcdn.net/serie/tt1843230"
+    },
+    { 
+        id:"tv/204774",
+        tipo: "Series",
+        title: "Pacto Brutal: O Assassinato de Daniella Perez",
+        url:"https://embed.warezcdn.net/serie/tt21339770"
+    },
+    { 
+        id:"tv/113988",
+        tipo: "Series",
+        title: "Dahmer: Um Canibal Americano",
+        url:"https://embed.warezcdn.net/serie/tt13207736"
+    },
+    { 
+        id:"tv/100088",
+        tipo: "Series",
+        title: "The Last of Us",
+        url:"https://embed.warezcdn.net/serie/tt3581920"
+    },
+    { 
+        id:"tv/119051",
+        tipo: "Series",
+        title: "Wandinha",
+        url:"https://embed.warezcdn.net/serie/tt3581920"
+    },
+    { 
+        id:"tv/71712",
+        tipo: "Series",
+        title: "The Good Doctor",
+        url:"https://embed.warezcdn.net/serie/tt6470478"
+    },
+    { 
+        id:"tv/71728",
+        tipo: "Series",
+        title: "Jovem Sheldon",
+        url:"https://embed.warezcdn.net/serie/tt6226232"
     },
 ]
 async function Home(){
