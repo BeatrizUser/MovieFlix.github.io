@@ -219,18 +219,16 @@ async function getMovie(movie){
     return (`
     <div class="card" style="width:14rem;">
         <img class="card-img-top" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${movieimg}" alt="${movie.title}">
-    <div class="card-body">
+    <div class="card-card">
         <h4 class="card-title">${movie.title}</h4>
-    <div class="container">
-                <div class="row">
-                <div class="col-sm-6 metadata">
-                    <p class="rating">${rating_round}</p>
-                </div>
-                <div class="col-sm-6 metadata">${movie_type}</div>
-                </div>
-            </div>
+    <div class="card-info">
+        <div class="info-rating">
+            <p class="rating">${rating_round}</p>
+        </div>
+        <div class="info">${movie_type}</div>
+        </div>
         <p class="card-text">${moviedescription}</p>
-        <a class="trailer-preview" href=${movie.url} target="new">&#9656</a>
+        <a href=${movie.url}><button class="button">Assitir</button></a>
         </div>
     </div>
     `)

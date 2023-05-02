@@ -42,10 +42,23 @@ body{
   justify-content: space-around;
 }
 .card{
-    background-color: rgba(0, 0, 0, 0.493);
-    margin: 5px;
-    color: white;
-    max-height: 750px;
+  background-color: rgba(0, 0, 0, 0.493);
+  margin: 5px;
+  color: white;
+  max-height: 750px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.card-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  height: 20rem;
+  justify-content: space-between;
 }
 .card-text{
     overflow: hidden;
@@ -65,48 +78,52 @@ body{
     font-weight: 700;
 }
 .trailer-preview {
-    background-color: #3a3a3a;
-    position: absolute;
-    top: 395px;
-    right: 18px;
-    width: 60px;
-    height: 60px;
-    border-radius:50%;
-    color: rgba(255, 255, 255, 0.505);
-    font-size: 34px;
-    text-align: center;
-    padding: 2px;
-    transition: 0.5s ease;
-  }
-  .trailer-preview:hover, .trailer-preview:disabled, .trailer-preview:active, .trailer-preview:focus {
-    opacity: 80%;
-    color: #ff0000;
-    text-decoration: none;
-    transition: 0.5ms ease-in;
-  }
-  .trailer-preview i {
-    margin-left: 5px;
-  }
-  
-  .metadata {
-    background: none;
-    padding: 0;
-    position: relative;
-    border-style: none;
-  }
-  
-  .metadata {
-    font-size: 16px;
-  }
-  .metadata i, .metadata p {
-    float: left;
-  }
-  .metadata p {
-    margin-top: 0;
-    margin-left: 10px;
-  }
-  .metadata i {
-    color: #ff9d00;
-    margin-top: 5px;
-    margin-left: 1px;
-  }
+  background-color: #3a3a3a;
+  position: absolute;
+  top: 395px;
+  right: 18px;
+  width: 60px;
+  height: 60px;
+  border-radius:50%;
+  color: rgba(255, 255, 255, 0.505);
+  font-size: 34px;
+  text-align: center;
+  padding: 2px;
+  transition: 0.5s ease;
+}
+.trailer-preview:hover, .trailer-preview:disabled, .trailer-preview:active, .trailer-preview:focus {
+  opacity: 80%;
+  color: #ff0000;
+  text-decoration: none;
+  transition: 0.5ms ease-in;
+}
+.trailer-preview i {
+  margin-left: 5px;
+}
+.button{
+  background-color: black;
+  color: white;
+  width: 10rem;
+}
+.card-info{
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.info{
+  width: 50%;
+  text-align: right;
+}
+.info-rating{
+  width: 40px;
+  height: 40px;
+  background-color: #ff0000a4;
+  color: aliceblue;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 4px;
+  font-weight: 700;
+}
