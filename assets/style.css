@@ -42,7 +42,7 @@ body{
   justify-content: space-around;
 }
 .card{
-  background-color: rgba(0, 0, 0, 0.493);
+  background-color: rgba(0, 0, 0, 0.382);
   margin: 5px;
   color: white;
   max-height: 750px;
@@ -61,57 +61,44 @@ body{
   justify-content: space-between;
 }
 .card-text{
-    overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 5; /* number of lines to show */
-   -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 .star{
-    font-size: 40px;
+  font-size: 40px;
 }
 .rating{
-    font-weight: 700;
-    font-size: 1.3rem;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
 .card-title{
-    font-weight: 700;
-}
-.trailer-preview {
-  background-color: #3a3a3a;
-  position: absolute;
-  top: 395px;
-  right: 18px;
-  width: 60px;
-  height: 60px;
-  border-radius:50%;
-  color: rgba(255, 255, 255, 0.505);
-  font-size: 34px;
-  text-align: center;
-  padding: 2px;
-  transition: 0.5s ease;
-}
-.trailer-preview:hover, .trailer-preview:disabled, .trailer-preview:active, .trailer-preview:focus {
-  opacity: 80%;
-  color: #ff0000;
-  text-decoration: none;
-  transition: 0.5ms ease-in;
-}
-.trailer-preview i {
-  margin-left: 5px;
+  font-weight: 700;
 }
 .button{
-  background-color: black;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.35);
   color: white;
   width: 10rem;
+  border: solid 0px;
+  border-radius: 5px;
+  transition: 0.8s ease;
+}
+.button:hover{
+  background-color: rgba(0, 0, 0, 0.631);
+  transform: scale(105%);
 }
 .card-info{
+  background-color: #48020234;
   display: flex;
   flex-direction: row;
-  width: 200px;
+  width: 110%;
   margin-bottom: 10px;
   justify-content: center;
   align-items: center;
+  height: 3rem;
 }
 .info{
   width: 50%;

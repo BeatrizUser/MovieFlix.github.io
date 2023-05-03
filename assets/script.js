@@ -3,211 +3,211 @@ const language_url = "&language=pt-BR&page=1"
 const url = "https://api.themoviedb.org/3"
 
 const moviesdb = [
-    { 
-        id:"movie/550",
+    {
+        id: "movie/550",
         tipo: "Movies",
         title: "Clube da Luta",
-        url:"https://embed.warezcdn.net/filme/tt0137523"
+        url: "https://embed.warezcdn.net/filme/tt0137523"
     },
-    { 
-        id:"movie/594767",
+    {
+        id: "movie/594767",
         tipo: "Movies",
         title: "Shazam! Fúria dos Deuses",
-        url:"https://embed.warezcdn.net/filme/tt10151854"
+        url: "https://embed.warezcdn.net/filme/tt10151854"
     },
-    { 
-        id:"movie/414906",
+    {
+        id: "movie/414906",
         tipo: "Movies",
         title: "The Batman(2022)",
-        url:"https://embed.warezcdn.net/filme/tt1877830"
+        url: "https://embed.warezcdn.net/filme/tt1877830"
     },
-    { 
-        id:"movie/6957",
+    {
+        id: "movie/6957",
         tipo: "Movies",
         title: "O Virgem de 40 Anos",
-        url:"https://embed.warezcdn.net/filme/tt0405422"
+        url: "https://embed.warezcdn.net/filme/tt0405422"
     },
-    { 
-        id:"movie/791373",
+    {
+        id: "movie/791373",
         tipo: "Movies",
         title: "Liga da Justiça de Zack Snyder",
-        url:"https://embed.warezcdn.net/filme/tt12361974"
+        url: "https://embed.warezcdn.net/filme/tt12361974"
     },
-    { 
-        id:"tv/95479",
+    {
+        id: "tv/95479",
         tipo: "Animes",
         title: "Jujutsu Kaisen",
-        url:"https://embed.warezcdn.net/serie/tt12343534"
+        url: "https://embed.warezcdn.net/serie/tt12343534"
     },
-    { 
-        id:"tv/85937",
+    {
+        id: "tv/85937",
         tipo: "Animes",
         title: "Demon Slayer (Kimetsu no Yaiba)",
-        url:"https://embed.warezcdn.net/serie/tt9335498"
+        url: "https://embed.warezcdn.net/serie/tt9335498"
     },
-    { 
-        id:"tv/1429",
+    {
+        id: "tv/1429",
         tipo: "Animes",
         title: "Attack on Titan",
-        url:"https://embed.warezcdn.net/serie/tt2560140"
+        url: "https://embed.warezcdn.net/serie/tt2560140"
     },
-    { 
-        id:"tv/30984",
+    {
+        id: "tv/30984",
         tipo: "Animes",
         title: "Bleach",
-        url:"https://embed.warezcdn.net/serie/tt0434665"
+        url: "https://embed.warezcdn.net/serie/tt0434665"
     },
-    { 
-        id:"tv/63926",
+    {
+        id: "tv/63926",
         tipo: "Animes",
         title: "One-Punch Man",
-        url:"https://embed.warezcdn.net/serie/tt4508902"
+        url: "https://embed.warezcdn.net/serie/tt4508902"
     },
-    { 
-        id:"tv/13916",
+    {
+        id: "tv/13916",
         tipo: "Animes",
         title: "Death Note",
-        url:"https://embed.warezcdn.net/serie/tt0877057"
+        url: "https://embed.warezcdn.net/serie/tt0877057"
     },
-    { 
-        id:"tv/36250",
+    {
+        id: "tv/36250",
         tipo: "Animes",
         title: "xxxHolic",
-        url:"https://embed.warezcdn.net/serie/tt0488477"
+        url: "https://embed.warezcdn.net/serie/tt0488477"
     },
-    { 
-        id:"tv/30981",
+    {
+        id: "tv/30981",
         tipo: "Animes",
         title: "Monster",
-        url:"https://embed.warezcdn.net/serie/tt0434706"
+        url: "https://embed.warezcdn.net/serie/tt0434706"
     },
-    { 
-        id:"tv/65249",
+    {
+        id: "tv/65249",
         tipo: "Animes",
         title: "Boku Dake Ga Inai Machi (Erased)",
-        url:"https://embed.warezcdn.net/serie/tt5249462"
+        url: "https://embed.warezcdn.net/serie/tt5249462"
     },
-    { 
-        id:"tv/1418",
+    {
+        id: "tv/1418",
         tipo: "Series",
         title: "Big Bang: A Teoria",
-        url:"https://embed.warezcdn.net/serie/tt0898266"
+        url: "https://embed.warezcdn.net/serie/tt0898266"
     },
-    { 
-        id:"tv/456",
+    {
+        id: "tv/456",
         tipo: "Series",
         title: "Os Simpsons",
-        url:"https://embed.warezcdn.net/serie/tt0096697"
+        url: "https://embed.warezcdn.net/serie/tt0096697"
     },
-    { 
-        id:"tv/95594",
+    {
+        id: "tv/95594",
         tipo: "Movies",
         title: "Velozes & Furiosos – Espiões do Asfalto",
-        url:"https://embed.warezcdn.net/serie/tt8322592"
+        url: "https://embed.warezcdn.net/serie/tt8322592"
     },
-    { 
-        id:"movie/114150",
+    {
+        id: "movie/114150",
         tipo: "Movies",
         title: "A Escolha Perfeita",
-        url:"https://embed.warezcdn.net/filme/tt1981677"
+        url: "https://embed.warezcdn.net/filme/tt1981677"
     },
-    { 
-        id:"movie/82695",
+    {
+        id: "movie/82695",
         tipo: "Movies",
         title: "Os Miseráveis",
-        url:"https://embed.warezcdn.net/filme/tt1707386"
+        url: "https://embed.warezcdn.net/filme/tt1707386"
     },
-    { 
-        id:"movie/131631",
+    {
+        id: "movie/131631",
         tipo: "Movies",
         title: "Jogos Vorazes: Esperança Parte 1",
-        url:"https://embed.warezcdn.net/filme/tt1951265"
+        url: "https://embed.warezcdn.net/filme/tt1951265"
     },
-    { 
-        id:"movie/131634",
+    {
+        id: "movie/131634",
         tipo: "Movies",
         title: "Jogos Vorazes: Esperança - O Final",
-        url:"https://embed.warezcdn.net/filme/tt1951266"
+        url: "https://embed.warezcdn.net/filme/tt1951266"
     },
-    { 
-        id:"tv/69478",
+    {
+        id: "tv/69478",
         tipo: "Series",
         title: "O conto da Aia",
-        url:"https://embed.warezcdn.net/serie/tt5834204"
+        url: "https://embed.warezcdn.net/serie/tt5834204"
     },
-    { 
-        id:"tv/39272",
+    {
+        id: "tv/39272",
         tipo: "Series",
         title: "Era uma Vez",
-        url:"https://embed.warezcdn.net/serie/tt1843230"
+        url: "https://embed.warezcdn.net/serie/tt1843230"
     },
-    { 
-        id:"tv/204774",
+    {
+        id: "tv/204774",
         tipo: "Series",
         title: "Pacto Brutal: O Assassinato de Daniella Perez",
-        url:"https://embed.warezcdn.net/serie/tt21339770"
+        url: "https://embed.warezcdn.net/serie/tt21339770"
     },
-    { 
-        id:"tv/113988",
+    {
+        id: "tv/113988",
         tipo: "Series",
         title: "Dahmer: Um Canibal Americano",
-        url:"https://embed.warezcdn.net/serie/tt13207736"
+        url: "https://embed.warezcdn.net/serie/tt13207736"
     },
-    { 
-        id:"tv/100088",
+    {
+        id: "tv/100088",
         tipo: "Series",
         title: "The Last of Us",
-        url:"https://embed.warezcdn.net/serie/tt3581920"
+        url: "https://embed.warezcdn.net/serie/tt3581920"
     },
-    { 
-        id:"tv/119051",
+    {
+        id: "tv/119051",
         tipo: "Series",
         title: "Wandinha",
-        url:"https://embed.warezcdn.net/serie/tt3581920"
+        url: "https://embed.warezcdn.net/serie/tt3581920"
     },
-    { 
-        id:"tv/71712",
+    {
+        id: "tv/71712",
         tipo: "Series",
         title: "The Good Doctor",
-        url:"https://embed.warezcdn.net/serie/tt6470478"
+        url: "https://embed.warezcdn.net/serie/tt6470478"
     },
-    { 
-        id:"tv/71728",
+    {
+        id: "tv/71728",
         tipo: "Series",
         title: "Jovem Sheldon",
-        url:"https://embed.warezcdn.net/serie/tt6226232"
+        url: "https://embed.warezcdn.net/serie/tt6226232"
     },
-    { 
-        id:"movie/487491",
+    {
+        id: "movie/487491",
         tipo: "Movies",
         title: "Fala Sério, Mãe!",
-        url:"https://embed.warezcdn.net/filme/tt7744802"
+        url: "https://embed.warezcdn.net/filme/tt7744802"
     },
 ]
-async function Home(){
-    for(let movie of moviesdb){
-        let moviessession= $(".moviessession")
-        let seriessession= $(".seriessession")
-        let animessession= $(".animessession")
+async function Home() {
+    for (let movie of moviesdb) {
+        let moviessession = $(".moviessession")
+        let seriessession = $(".seriessession")
+        let animessession = $(".animessession")
 
         let moviedata = await getMovie(movie)
-        
-        
-        if(movie.tipo == "Animes"){
+
+
+        if (movie.tipo == "Animes") {
             animessession.append(moviedata)
-        }else
-        if(movie.tipo == "Series"){
-            seriessession.append(moviedata)
-        }else
-        if(movie.tipo == "Movies"){
-            moviessession.append(moviedata)
-        }
+        } else
+            if (movie.tipo == "Series") {
+                seriessession.append(moviedata)
+            } else
+                if (movie.tipo == "Movies") {
+                    moviessession.append(moviedata)
+                }
     }
 }
-async function getMovie(movie){
+async function getMovie(movie) {
     let id = movie.id
 
-    const get_movie = await axios("https://api.themoviedb.org/3/"+id+api_key+language_url)
+    const get_movie = await axios("https://api.themoviedb.org/3/" + id + api_key + language_url)
     const movie_data = get_movie.data
 
     const movieimg = movie_data.poster_path
@@ -225,8 +225,9 @@ async function getMovie(movie){
         <div class="info-rating">
             <p class="rating">${rating_round}</p>
         </div>
-        <div class="info">${movie_type}</div>
+        <div class="info">${movie_type}
         </div>
+    </div>
         <p class="card-text">${moviedescription}</p>
         <a href=${movie.url}><button class="button">Assitir</button></a>
         </div>
@@ -235,6 +236,6 @@ async function getMovie(movie){
 
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
     Home()
 });
